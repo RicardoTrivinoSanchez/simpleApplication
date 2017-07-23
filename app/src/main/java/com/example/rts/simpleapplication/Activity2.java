@@ -30,11 +30,11 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
 
         if (view == ok) {
 
-            data.putExtra("msg","OK");
+            data.putExtra("msg","You pressed OK");
 
         } else {
 
-            data.putExtra("msg","Cancel");
+            data.putExtra("msg","You pressed Cancel");
 
         }
 
